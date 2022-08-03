@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_compare1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_compare1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="143110000fs"></ZoomStartTime>
+      <ZoomEndTime time="167530001fs"></ZoomEndTime>
+      <Cursor1Time time="265660000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="group7" type="group">
+      <obj_property name="label">compare1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/count1" type="array">
+         <obj_property name="ElementShortName">count1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/count3" type="array">
+         <obj_property name="ElementShortName">count3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count3[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/reg_out1" type="logic">
+         <obj_property name="ElementShortName">reg_out1</obj_property>
+         <obj_property name="ObjectShortName">reg_out1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/reg_out3" type="logic">
+         <obj_property name="ElementShortName">reg_out3</obj_property>
+         <obj_property name="ObjectShortName">reg_out3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/differsum2" type="array">
+         <obj_property name="ElementShortName">differsum2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/flag" type="logic">
+         <obj_property name="ElementShortName">flag</obj_property>
+         <obj_property name="ObjectShortName">flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/differsum1" type="array">
+         <obj_property name="ElementShortName">differsum1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/mem_reg_1" type="array">
+         <obj_property name="ElementShortName">mem_reg_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/pre_state_1" type="array">
+         <obj_property name="ElementShortName">pre_state_1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state_1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/i" type="array">
+         <obj_property name="ElementShortName">i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/k" type="array">
+         <obj_property name="ElementShortName">k[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/k_dl" type="array">
+         <obj_property name="ElementShortName">k_dl[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k_dl[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_1/inst/flag_compare" type="logic">
+         <obj_property name="ElementShortName">flag_compare</obj_property>
+         <obj_property name="ObjectShortName">flag_compare</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group8" type="group">
+      <obj_property name="label">compare2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/count5" type="array">
+         <obj_property name="ElementShortName">count5[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count5[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/count7" type="array">
+         <obj_property name="ElementShortName">count7[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count7[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/reg_out5" type="logic">
+         <obj_property name="ElementShortName">reg_out5</obj_property>
+         <obj_property name="ObjectShortName">reg_out5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/reg_out7" type="logic">
+         <obj_property name="ElementShortName">reg_out7</obj_property>
+         <obj_property name="ObjectShortName">reg_out7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/flag" type="logic">
+         <obj_property name="ElementShortName">flag</obj_property>
+         <obj_property name="ObjectShortName">flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/differsum3" type="array">
+         <obj_property name="ElementShortName">differsum3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum3[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/differsum4" type="array">
+         <obj_property name="ElementShortName">differsum4[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum4[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/differsum2" type="array">
+         <obj_property name="ElementShortName">differsum2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/mem_reg_2" type="array">
+         <obj_property name="ElementShortName">mem_reg_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/pre_state_2" type="array">
+         <obj_property name="ElementShortName">pre_state_2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state_2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/i" type="array">
+         <obj_property name="ElementShortName">i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/k" type="array">
+         <obj_property name="ElementShortName">k[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/k_dl" type="array">
+         <obj_property name="ElementShortName">k_dl[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k_dl[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_2/inst/flag_compare" type="logic">
+         <obj_property name="ElementShortName">flag_compare</obj_property>
+         <obj_property name="ObjectShortName">flag_compare</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group9" type="group">
+      <obj_property name="label">compare3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/count2" type="array">
+         <obj_property name="ElementShortName">count2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count2[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/count4" type="array">
+         <obj_property name="ElementShortName">count4[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count4[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/reg_out2" type="logic">
+         <obj_property name="ElementShortName">reg_out2</obj_property>
+         <obj_property name="ObjectShortName">reg_out2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/reg_out4" type="logic">
+         <obj_property name="ElementShortName">reg_out4</obj_property>
+         <obj_property name="ObjectShortName">reg_out4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/differsum1" type="array">
+         <obj_property name="ElementShortName">differsum1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/differsum2" type="array">
+         <obj_property name="ElementShortName">differsum2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/flag" type="logic">
+         <obj_property name="ElementShortName">flag</obj_property>
+         <obj_property name="ObjectShortName">flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/differsum3" type="array">
+         <obj_property name="ElementShortName">differsum3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum3[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/mem_reg_3" type="array">
+         <obj_property name="ElementShortName">mem_reg_3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_3[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/pre_state_3" type="array">
+         <obj_property name="ElementShortName">pre_state_3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state_3[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/i" type="array">
+         <obj_property name="ElementShortName">i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/k" type="array">
+         <obj_property name="ElementShortName">k[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/k_dl" type="array">
+         <obj_property name="ElementShortName">k_dl[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k_dl[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/compare_3/inst/flag_compare" type="logic">
+         <obj_property name="ElementShortName">flag_compare</obj_property>
+         <obj_property name="ObjectShortName">flag_compare</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group10" type="group">
+      <obj_property name="label">compare4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/count6" type="array">
+         <obj_property name="ElementShortName">count6[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count6[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/count8" type="array">
+         <obj_property name="ElementShortName">count8[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count8[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/reg_out6" type="logic">
+         <obj_property name="ElementShortName">reg_out6</obj_property>
+         <obj_property name="ObjectShortName">reg_out6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/reg_out8" type="logic">
+         <obj_property name="ElementShortName">reg_out8</obj_property>
+         <obj_property name="ObjectShortName">reg_out8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/differsum3" type="array">
+         <obj_property name="ElementShortName">differsum3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum3[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/flag" type="logic">
+         <obj_property name="ElementShortName">flag</obj_property>
+         <obj_property name="ObjectShortName">flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/differsum4" type="array">
+         <obj_property name="ElementShortName">differsum4[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum4[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/mem_reg_4" type="array">
+         <obj_property name="ElementShortName">mem_reg_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_4[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/pre_state_4" type="array">
+         <obj_property name="ElementShortName">pre_state_4[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state_4[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/i" type="array">
+         <obj_property name="ElementShortName">i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">i[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/k" type="array">
+         <obj_property name="ElementShortName">k[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/k_dl" type="array">
+         <obj_property name="ElementShortName">k_dl[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k_dl[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/comparer_4/inst/flag_compare" type="logic">
+         <obj_property name="ElementShortName">flag_compare</obj_property>
+         <obj_property name="ObjectShortName">flag_compare</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group89" type="group">
+      <obj_property name="label">splitstring</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group98" type="group">
+      <obj_property name="label">control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/control/inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/control/inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/control/inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/control/inst/flag" type="logic">
+         <obj_property name="ElementShortName">flag</obj_property>
+         <obj_property name="ObjectShortName">flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/control/inst/count" type="array">
+         <obj_property name="ElementShortName">count[5:0]</obj_property>
+         <obj_property name="ObjectShortName">count[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group98" type="group">
+      <obj_property name="label">traceback</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/differsum1" type="array">
+         <obj_property name="ElementShortName">differsum1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/mem_reg_1" type="array">
+         <obj_property name="ElementShortName">mem_reg_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_1[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/pre_state1" type="array">
+         <obj_property name="ElementShortName">pre_state1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state1[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/differsum2" type="array">
+         <obj_property name="ElementShortName">differsum2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum2[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/mem_reg_2" type="array">
+         <obj_property name="ElementShortName">mem_reg_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_2[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/pre_state2" type="array">
+         <obj_property name="ElementShortName">pre_state2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state2[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/differsum3" type="array">
+         <obj_property name="ElementShortName">differsum3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum3[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/mem_reg_3" type="array">
+         <obj_property name="ElementShortName">mem_reg_3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_3[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/pre_state3" type="array">
+         <obj_property name="ElementShortName">pre_state3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state3[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/differsum4" type="array">
+         <obj_property name="ElementShortName">differsum4[4:0]</obj_property>
+         <obj_property name="ObjectShortName">differsum4[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/mem_reg_4" type="array">
+         <obj_property name="ElementShortName">mem_reg_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg_4[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/pre_state4" type="array">
+         <obj_property name="ElementShortName">pre_state4[15:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_state4[15:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/flag" type="logic">
+         <obj_property name="ElementShortName">flag</obj_property>
+         <obj_property name="ObjectShortName">flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/mem_out" type="array">
+         <obj_property name="ElementShortName">mem_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_out[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/pre_mem_out" type="array">
+         <obj_property name="ElementShortName">pre_mem_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pre_mem_out[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/A" type="array">
+         <obj_property name="ElementShortName">A[3:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">A[3:0][4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/B" type="array">
+         <obj_property name="ElementShortName">B[3:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">B[3:0][1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/cur_state" type="array">
+         <obj_property name="ElementShortName">cur_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cur_state[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/min" type="array">
+         <obj_property name="ElementShortName">min[4:0]</obj_property>
+         <obj_property name="ObjectShortName">min[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/count" type="array">
+         <obj_property name="ElementShortName">count[1:0]</obj_property>
+         <obj_property name="ObjectShortName">count[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/i" type="array">
+         <obj_property name="ElementShortName">i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">i[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/k" type="array">
+         <obj_property name="ElementShortName">k[4:0]</obj_property>
+         <obj_property name="ObjectShortName">k[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compare1/viter_i/viter_i/traceback/inst/flag_dl" type="logic">
+         <obj_property name="ElementShortName">flag_dl</obj_property>
+         <obj_property name="ObjectShortName">flag_dl</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

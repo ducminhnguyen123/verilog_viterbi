@@ -1,0 +1,1263 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x73DFD152A4CFCB8D",
+      "device": "xc7vx485tffg1157-1",
+      "name": "decode",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "state00": "",
+      "state01": "",
+      "state10": "",
+      "state11": "",
+      "splitstring": "",
+      "control": "",
+      "compare_1": "",
+      "compare_2": "",
+      "compare_3": "",
+      "comparer_4": "",
+      "traceback": "",
+      "detect1": "",
+      "detect2": "",
+      "detect3": "",
+      "detect4": ""
+    },
+    "ports": {
+      "en": {
+        "direction": "I"
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst"
+          },
+          "CLK_DOMAIN": {
+            "value": "decode_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "data_in": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "mem_out": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "done": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "state00": {
+        "vlnv": "xilinx.com:module_ref:state00:1.0",
+        "xci_name": "decode_state00_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "state00",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "bit_out_1": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_2": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out1": {
+            "direction": "O"
+          },
+          "reg_out2": {
+            "direction": "O"
+          }
+        }
+      },
+      "state01": {
+        "vlnv": "xilinx.com:module_ref:state01:1.0",
+        "xci_name": "decode_state01_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "state01",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "bit_out_3": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_4": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out3": {
+            "direction": "O"
+          },
+          "reg_out4": {
+            "direction": "O"
+          }
+        }
+      },
+      "state10": {
+        "vlnv": "xilinx.com:module_ref:state10:1.0",
+        "xci_name": "decode_state10_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "state10",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "bit_out_5": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_6": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out5": {
+            "direction": "O"
+          },
+          "reg_out6": {
+            "direction": "O"
+          }
+        }
+      },
+      "state11": {
+        "vlnv": "xilinx.com:module_ref:state11:1.0",
+        "xci_name": "decode_state11_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "state11",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "bit_out_7": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_8": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out7": {
+            "direction": "O"
+          },
+          "reg_out8": {
+            "direction": "O"
+          }
+        }
+      },
+      "splitstring": {
+        "vlnv": "xilinx.com:module_ref:splitstring:1.0",
+        "xci_name": "decode_splitstring_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "splitstring",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "en": {
+            "direction": "I"
+          },
+          "data_in": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "bit_in": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      },
+      "control": {
+        "vlnv": "xilinx.com:module_ref:control:1.0",
+        "xci_name": "decode_control_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "control",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "flag": {
+            "direction": "O"
+          }
+        }
+      },
+      "compare_1": {
+        "vlnv": "xilinx.com:module_ref:compare_1:1.0",
+        "xci_name": "decode_compare_1_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "compare_1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "count1": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count3": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out1": {
+            "direction": "I"
+          },
+          "reg_out3": {
+            "direction": "I"
+          },
+          "differsum2": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "differsum1": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_1": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state_1": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "compare_2": {
+        "vlnv": "xilinx.com:module_ref:compare_2:1.0",
+        "xci_name": "decode_compare_2_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "compare_2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "count5": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count7": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out5": {
+            "direction": "I"
+          },
+          "reg_out7": {
+            "direction": "I"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "differsum3": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "differsum4": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "differsum2": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_2": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state_2": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "compare_3": {
+        "vlnv": "xilinx.com:module_ref:compare_3:1.0",
+        "xci_name": "decode_compare_3_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "compare_3",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "count2": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count4": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out2": {
+            "direction": "I"
+          },
+          "reg_out4": {
+            "direction": "I"
+          },
+          "differsum1": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "differsum2": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "differsum3": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_3": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state_3": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "comparer_4": {
+        "vlnv": "xilinx.com:module_ref:comparer_4:1.0",
+        "xci_name": "decode_comparer_4_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "comparer_4",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "count6": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count8": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "reg_out6": {
+            "direction": "I"
+          },
+          "reg_out8": {
+            "direction": "I"
+          },
+          "differsum3": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "differsum4": {
+            "direction": "O",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_4": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state_4": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          }
+        }
+      },
+      "traceback": {
+        "vlnv": "xilinx.com:module_ref:traceback:1.0",
+        "xci_name": "decode_traceback_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "traceback",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "differsum1": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_1": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state1": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "differsum2": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_2": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state2": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "differsum3": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_3": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state3": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "differsum4": {
+            "direction": "I",
+            "left": "4",
+            "right": "0"
+          },
+          "mem_reg_4": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "pre_state4": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "mem_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "done": {
+            "direction": "O"
+          }
+        }
+      },
+      "detect1": {
+        "vlnv": "xilinx.com:module_ref:detect1:1.0",
+        "xci_name": "decode_detect1_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "detect1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "bit_in": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_1": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_3": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count1": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "count3": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      },
+      "detect2": {
+        "vlnv": "xilinx.com:module_ref:detect2:1.0",
+        "xci_name": "decode_detect2_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "detect2",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "bit_in": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_5": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_7": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count5": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "count7": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      },
+      "detect3": {
+        "vlnv": "xilinx.com:module_ref:detect3:1.0",
+        "xci_name": "decode_detect3_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "detect3",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "bit_in": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_2": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_4": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count2": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "count4": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      },
+      "detect4": {
+        "vlnv": "xilinx.com:module_ref:detect4:1.0",
+        "xci_name": "decode_detect4_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "detect4",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "decode_clk",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "flag": {
+            "direction": "I"
+          },
+          "bit_in": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_6": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "bit_out_8": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "count6": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "count8": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "en_0_1": {
+        "ports": [
+          "en",
+          "state00/en",
+          "state01/en",
+          "state10/en",
+          "state11/en",
+          "splitstring/en",
+          "control/en",
+          "compare_1/en",
+          "compare_2/en",
+          "compare_3/en",
+          "comparer_4/en",
+          "detect1/en",
+          "detect3/en",
+          "detect4/en",
+          "detect2/en",
+          "traceback/en"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst",
+          "state00/rst",
+          "state01/rst",
+          "state10/rst",
+          "state11/rst",
+          "splitstring/rst",
+          "control/rst",
+          "detect1/rst",
+          "detect3/rst",
+          "detect4/rst",
+          "detect2/rst",
+          "compare_1/rst",
+          "compare_3/rst",
+          "traceback/rst",
+          "comparer_4/rst",
+          "compare_2/rst"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "splitstring/clk",
+          "control/clk",
+          "compare_1/clk",
+          "compare_2/clk",
+          "compare_3/clk",
+          "comparer_4/clk",
+          "detect1/clk",
+          "detect3/clk",
+          "detect4/clk",
+          "detect2/clk",
+          "traceback/clk"
+        ]
+      },
+      "data_in_0_1": {
+        "ports": [
+          "data_in",
+          "splitstring/data_in"
+        ]
+      },
+      "control_0_flag": {
+        "ports": [
+          "control/flag",
+          "splitstring/flag",
+          "compare_1/flag",
+          "compare_2/flag",
+          "compare_3/flag",
+          "comparer_4/flag",
+          "traceback/flag",
+          "detect4/flag",
+          "detect2/flag",
+          "detect3/flag",
+          "detect1/flag"
+        ]
+      },
+      "splitstring_0_bit_in": {
+        "ports": [
+          "splitstring/bit_in",
+          "detect1/bit_in",
+          "detect3/bit_in",
+          "detect4/bit_in",
+          "detect2/bit_in"
+        ]
+      },
+      "traceback_0_mem_out": {
+        "ports": [
+          "traceback/mem_out",
+          "mem_out"
+        ]
+      },
+      "traceback_0_done": {
+        "ports": [
+          "traceback/done",
+          "done"
+        ]
+      },
+      "state00_0_bit_out_1": {
+        "ports": [
+          "state00/bit_out_1",
+          "detect1/bit_out_1"
+        ]
+      },
+      "state00_0_reg_out1": {
+        "ports": [
+          "state00/reg_out1",
+          "compare_1/reg_out1"
+        ]
+      },
+      "state01_0_bit_out_3": {
+        "ports": [
+          "state01/bit_out_3",
+          "detect1/bit_out_3"
+        ]
+      },
+      "state01_0_reg_out3": {
+        "ports": [
+          "state01/reg_out3",
+          "compare_1/reg_out3"
+        ]
+      },
+      "compare_2_0_differsum2": {
+        "ports": [
+          "compare_2/differsum2",
+          "compare_1/differsum2",
+          "compare_3/differsum2",
+          "traceback/differsum2"
+        ]
+      },
+      "state10_0_bit_out_5": {
+        "ports": [
+          "state10/bit_out_5",
+          "detect2/bit_out_5"
+        ]
+      },
+      "state10_0_reg_out5": {
+        "ports": [
+          "state10/reg_out5",
+          "compare_2/reg_out5"
+        ]
+      },
+      "state11_0_bit_out_7": {
+        "ports": [
+          "state11/bit_out_7",
+          "detect2/bit_out_7"
+        ]
+      },
+      "state11_0_reg_out7": {
+        "ports": [
+          "state11/reg_out7",
+          "compare_2/reg_out7"
+        ]
+      },
+      "compare_3_0_differsum3": {
+        "ports": [
+          "compare_3/differsum3",
+          "compare_2/differsum3",
+          "comparer_4/differsum3",
+          "traceback/differsum3"
+        ]
+      },
+      "comparer_4_0_differsum4": {
+        "ports": [
+          "comparer_4/differsum4",
+          "compare_2/differsum4",
+          "traceback/differsum4"
+        ]
+      },
+      "state00_0_bit_out_2": {
+        "ports": [
+          "state00/bit_out_2",
+          "detect3/bit_out_2"
+        ]
+      },
+      "state00_0_reg_out2": {
+        "ports": [
+          "state00/reg_out2",
+          "compare_3/reg_out2"
+        ]
+      },
+      "state01_0_bit_out_4": {
+        "ports": [
+          "state01/bit_out_4",
+          "detect3/bit_out_4"
+        ]
+      },
+      "state01_0_reg_out4": {
+        "ports": [
+          "state01/reg_out4",
+          "compare_3/reg_out4"
+        ]
+      },
+      "compare_1_0_differsum1": {
+        "ports": [
+          "compare_1/differsum1",
+          "compare_3/differsum1",
+          "traceback/differsum1"
+        ]
+      },
+      "state10_0_bit_out_6": {
+        "ports": [
+          "state10/bit_out_6",
+          "detect4/bit_out_6"
+        ]
+      },
+      "state10_0_reg_out6": {
+        "ports": [
+          "state10/reg_out6",
+          "comparer_4/reg_out6"
+        ]
+      },
+      "state11_0_bit_out_8": {
+        "ports": [
+          "state11/bit_out_8",
+          "detect4/bit_out_8"
+        ]
+      },
+      "state11_0_reg_out8": {
+        "ports": [
+          "state11/reg_out8",
+          "comparer_4/reg_out8"
+        ]
+      },
+      "compare_1_0_mem_reg_1": {
+        "ports": [
+          "compare_1/mem_reg_1",
+          "traceback/mem_reg_1"
+        ]
+      },
+      "compare_1_0_pre_state_1": {
+        "ports": [
+          "compare_1/pre_state_1",
+          "traceback/pre_state1"
+        ]
+      },
+      "compare_2_0_mem_reg_2": {
+        "ports": [
+          "compare_2/mem_reg_2",
+          "traceback/mem_reg_2"
+        ]
+      },
+      "compare_2_0_pre_state_2": {
+        "ports": [
+          "compare_2/pre_state_2",
+          "traceback/pre_state2"
+        ]
+      },
+      "compare_3_0_mem_reg_3": {
+        "ports": [
+          "compare_3/mem_reg_3",
+          "traceback/mem_reg_3"
+        ]
+      },
+      "compare_3_0_pre_state_3": {
+        "ports": [
+          "compare_3/pre_state_3",
+          "traceback/pre_state3"
+        ]
+      },
+      "comparer_4_0_mem_reg_4": {
+        "ports": [
+          "comparer_4/mem_reg_4",
+          "traceback/mem_reg_4"
+        ]
+      },
+      "comparer_4_0_pre_state_4": {
+        "ports": [
+          "comparer_4/pre_state_4",
+          "traceback/pre_state4"
+        ]
+      },
+      "detect1_0_count1": {
+        "ports": [
+          "detect1/count1",
+          "compare_1/count1"
+        ]
+      },
+      "detect4_0_count6": {
+        "ports": [
+          "detect4/count6",
+          "comparer_4/count6"
+        ]
+      },
+      "detect4_0_count8": {
+        "ports": [
+          "detect4/count8",
+          "comparer_4/count8"
+        ]
+      },
+      "detect2_0_count5": {
+        "ports": [
+          "detect2/count5",
+          "compare_2/count5"
+        ]
+      },
+      "detect2_0_count7": {
+        "ports": [
+          "detect2/count7",
+          "compare_2/count7"
+        ]
+      },
+      "detect3_0_count2": {
+        "ports": [
+          "detect3/count2",
+          "compare_3/count2"
+        ]
+      },
+      "detect3_0_count4": {
+        "ports": [
+          "detect3/count4",
+          "compare_3/count4"
+        ]
+      },
+      "detect1_0_count3": {
+        "ports": [
+          "detect1/count3",
+          "compare_1/count3"
+        ]
+      }
+    }
+  }
+}

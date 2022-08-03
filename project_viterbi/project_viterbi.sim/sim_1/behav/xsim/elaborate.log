@@ -1,0 +1,44 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/verilog/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 51fbe4cb3c3d42158f76d54b8ecdf201 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_compare1_behav xil_defaultlib.tb_compare1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.compare_1
+Compiling module xil_defaultlib.viter_compare_1_0_0
+Compiling module xil_defaultlib.compare_2
+Compiling module xil_defaultlib.viter_compare_2_0_0
+Compiling module xil_defaultlib.compare_3
+Compiling module xil_defaultlib.viter_compare_3_0_0
+Compiling module xil_defaultlib.comparer_4
+Compiling module xil_defaultlib.viter_comparer_4_0_0
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.viter_control_0_0
+Compiling module xil_defaultlib.detect1
+Compiling module xil_defaultlib.viter_detect1_0_0
+Compiling module xil_defaultlib.detect2
+Compiling module xil_defaultlib.viter_detect2_0_0
+Compiling module xil_defaultlib.detect3
+Compiling module xil_defaultlib.viter_detect3_0_0
+Compiling module xil_defaultlib.detect4
+Compiling module xil_defaultlib.viter_detect4_0_0
+Compiling module xil_defaultlib.splitstring
+Compiling module xil_defaultlib.viter_splitstring_0_0
+Compiling module xil_defaultlib.state00
+Compiling module xil_defaultlib.viter_state00_0_0
+Compiling module xil_defaultlib.state01
+Compiling module xil_defaultlib.viter_state01_0_0
+Compiling module xil_defaultlib.state10
+Compiling module xil_defaultlib.viter_state10_0_0
+Compiling module xil_defaultlib.state11
+Compiling module xil_defaultlib.viter_state11_0_0
+Compiling module xil_defaultlib.traceback
+Compiling module xil_defaultlib.viter_traceback_0_0
+Compiling module xil_defaultlib.viter
+Compiling module xil_defaultlib.viter_wrapper
+Compiling module xil_defaultlib.tb_compare1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_compare1_behav

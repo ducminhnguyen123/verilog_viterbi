@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="decode_comparer_4_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_comparer_4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_compare_1_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_compare_1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_compare_2_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_compare_2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_compare_3_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_compare_3_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_splitstring_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_splitstring_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_traceback_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_traceback_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_control_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_control_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_detect1_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_detect1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_detect2_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_detect2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_detect3_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_detect3_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="decode_detect4_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/decode_detect4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="decode_comparer_4_0_0_synth_1"/>
+		<Parent Id="decode_compare_1_0_0_synth_1"/>
+		<Parent Id="decode_compare_2_0_0_synth_1"/>
+		<Parent Id="decode_compare_3_0_0_synth_1"/>
+		<Parent Id="decode_splitstring_0_0_synth_1"/>
+		<Parent Id="decode_traceback_0_0_synth_1"/>
+		<Parent Id="decode_control_0_0_synth_1"/>
+		<Parent Id="decode_detect1_0_0_synth_1"/>
+		<Parent Id="decode_detect2_0_0_synth_1"/>
+		<Parent Id="decode_detect3_0_0_synth_1"/>
+		<Parent Id="decode_detect4_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

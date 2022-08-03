@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_state11_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/design_1_state11_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_compare_1_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/design_1_compare_1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_compare_2_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/design_1_compare_2_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_compare_3_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/design_1_compare_3_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_compare_4_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/design_1_compare_4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_control_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/design_1_control_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_traceback_0_0_synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/design_1_traceback_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="F:/verilog/project_viterbi/project_viterbi.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_state11_0_0_synth_1"/>
+		<Parent Id="design_1_compare_1_0_0_synth_1"/>
+		<Parent Id="design_1_compare_2_0_0_synth_1"/>
+		<Parent Id="design_1_compare_3_0_0_synth_1"/>
+		<Parent Id="design_1_compare_4_0_0_synth_1"/>
+		<Parent Id="design_1_control_0_0_synth_1"/>
+		<Parent Id="design_1_traceback_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

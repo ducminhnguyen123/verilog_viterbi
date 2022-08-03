@@ -1,0 +1,41 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_viterbi.srcs/sources_1/new/compare_1.v" \
+"../../../../project_viterbi.srcs/sources_1/new/compare_2.v" \
+"../../../../project_viterbi.srcs/sources_1/new/compare_3.v" \
+"../../../../project_viterbi.srcs/sources_1/new/comparer_4.v" \
+"../../../../project_viterbi.srcs/sources_1/new/control.v" \
+"../../../../project_viterbi.srcs/sources_1/new/detect1.v" \
+"../../../../project_viterbi.srcs/sources_1/new/detect2.v" \
+"../../../../project_viterbi.srcs/sources_1/new/detect3.v" \
+"../../../../project_viterbi.srcs/sources_1/new/detect4.v" \
+"../../../../project_viterbi.srcs/sources_1/new/splitstring.v" \
+"../../../../project_viterbi.srcs/sources_1/new/state00.v" \
+"../../../../project_viterbi.srcs/sources_1/new/state01.v" \
+"../../../../project_viterbi.srcs/sources_1/new/state10.v" \
+"../../../../project_viterbi.srcs/sources_1/new/state11.v" \
+"../../../../project_viterbi.srcs/sources_1/new/traceback.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_compare_1_0_0/sim/viter_compare_1_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_compare_2_0_0/sim/viter_compare_2_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_compare_3_0_0/sim/viter_compare_3_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_comparer_4_0_0/sim/viter_comparer_4_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_control_0_0/sim/viter_control_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_detect1_0_0/sim/viter_detect1_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_detect2_0_0/sim/viter_detect2_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_detect3_0_0/sim/viter_detect3_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_detect4_0_0/sim/viter_detect4_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_splitstring_0_0/sim/viter_splitstring_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_state00_0_0/sim/viter_state00_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_state01_0_0/sim/viter_state01_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_state10_0_0/sim/viter_state10_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_state11_0_0/sim/viter_state11_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/ip/viter_traceback_0_0/sim/viter_traceback_0_0.v" \
+"../../../../project_viterbi.ip_user_files/bd/viter/sim/viter.v" \
+"../../../../project_viterbi.srcs/sources_1/bd/viter/hdl/viter_wrapper.v" \
+"../../../../project_viterbi.srcs/sim_1/new/tb_compare1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
